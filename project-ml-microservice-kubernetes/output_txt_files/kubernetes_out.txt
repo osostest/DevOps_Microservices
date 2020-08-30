@@ -1,8 +1,8 @@
 > ./run_kubernetes.sh                                                                                                           8% (0:15) 
 kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
-deployment.apps/machine-learning-app created
+deployment.apps/mohoss created
 NAME                                   READY   STATUS              RESTARTS   AGE
-machine-learning-app-86bf568d8-t9qtm   0/1     ContainerCreating   0          0s
+mohoss-86bf568d8-t9qtm   0/1     ContainerCreating   0          0s
 error: unable to forward port because pod is not running. Current status=Pending
 
 ~/docker_projects/machine_learning_microservices_kubernetes
@@ -10,7 +10,7 @@ error: unable to forward port because pod is not running. Current status=Pending
 kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
 Error from server (AlreadyExists): deployments.apps "machine-learning-app" already exists
 NAME                                   READY   STATUS    RESTARTS   AGE
-machine-learning-app-86af567d1-9crfz   1/1     Running   0          8s
+mohoss-86af567d1-9crfz   1/1     Running   0          8s
 Forwarding from 0.0.0.0:8000 -> 80
 Handling connection for 8000
 ^C{'CHAS': {'0': 0.2}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
